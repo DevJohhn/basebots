@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.3",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  }
+}

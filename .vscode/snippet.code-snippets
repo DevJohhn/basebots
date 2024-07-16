@@ -1,0 +1,53 @@
+{
+    "Novo Slash Command": {
+        "scope": "javascript",
+        "prefix": "newcommand",
+        "body": [
+            "const Discord = require(\"discord.js\")",
+            "",
+            "module.exports = {",
+            "  name: '$1',",
+            "  description: '$2',",
+            "  type: Discord.ApplicationCommandType.ChatInput,",
+            "",
+            "  run: async (client, interaction) => {",
+            "      $6",
+            "  }",
+            "}"
+        ]
+    },
+    "Nova Embed": {
+        "scope": "javascript",
+        "prefix": "newembed",
+        "body": [
+            "let embed = new Discord.EmbedBuilder()",
+            ".setAuthor({ name: ``, iconURL:})",
+            ".setDescription(``)",
+            ".setColor(``)",
+            ".setTimestamp()"
+        ]
+    },
+    "Novo Botão": {
+        "scope": "javascript",
+        "prefix": "newbutton",
+        "body": [
+            "let botao = new Discord.ButtonBuilder()",
+            ".setCustomId(``)",
+            ".setLabel(``)",
+            ".setStyle(`Discord.ButtonStyle.`)"
+        ]
+    },
+    "Novo SelectMenu": {
+        "scope": "javascript",
+        "prefix": "newselectmenu",
+        "body": [
+            "let selectmenu = new Discord.StringSelectMenuBuilder",
+            ".setCustomId",
+            ".setPlaceholder",
+            ".addOptions",
+        ]
+    }
+    
+    
+}
+
