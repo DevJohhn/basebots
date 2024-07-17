@@ -34,17 +34,17 @@
             "let botao = new Discord.ButtonBuilder()",
             ".setCustomId(``)",
             ".setLabel(``)",
-            ".setStyle(`Discord.ButtonStyle.`)"
+            ".setStyle(Discord.ButtonStyle.)"
         ]
     },
     "Novo SelectMenu": {
         "scope": "javascript",
         "prefix": "newselectmenu",
         "body": [
-            "let selectmenu = new Discord.StringSelectMenuBuilder",
-            ".setCustomId",
-            ".setPlaceholder",
-            ".addOptions",
+            "let selectmenu = new Discord.SelectMenuBuilder()",
+            ".setCustomId("")",
+            ".setPlaceholder("")",
+            ".addOptions([])",
         ]
     }
     
